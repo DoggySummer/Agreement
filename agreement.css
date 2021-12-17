@@ -61,6 +61,49 @@ h1{
 .warning{
   color: red;
 }
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  border-radius: 5px;
+  background-image: url(imgs/check.png);
+}
+
+.switch input{
+  display: none
+}
+
+.check_picture:before{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  content: "";
+}
+/* .check_picture{
+  position: absolute;
+  cursor:pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
+
+.switch input:checked + .check_picture{
+  background-image: url(imgs/check.png);
+}
+.switch input:checked + .check_picture:before{
+  background-image: url(imgs/checked.png); */
+
+
+
+
+
+
+
 #usage-description{
   margin-top: 20px;
   height: 80px;
@@ -90,7 +133,7 @@ h1{
   display: flex;
 }
 .category{
-  border-top: solid 0.1px var(--color-blue);
+  border-top: solid 0.1px black;
   height: 60px;
 }
 .purpose{
