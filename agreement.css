@@ -62,6 +62,8 @@ h1{
   color: red;
 }
 
+
+
 .switch {
   position: relative;
   display: inline-block;
@@ -72,7 +74,7 @@ h1{
 }
 
 .switch input{
-  display: none
+  display: none;
 }
 
 .check_picture:before{
@@ -81,6 +83,17 @@ h1{
   cursor: pointer;
   content: "";
 }
+.switch input + label{
+  display: inline-block; 
+  cursor: pointer; 
+  line-height: 22px; 
+  padding-left: 22px; 
+  background: url('imgs/check.png') left/22px no-repeat; 
+
+
+
+}
+
 /* .check_picture{
   position: absolute;
   cursor:pointer;
