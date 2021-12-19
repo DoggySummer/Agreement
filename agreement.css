@@ -62,57 +62,31 @@ h1{
   color: red;
 }
 
-
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 20px;
-  height: 15px;
-  border-radius: 5px;
-  background-image: url(imgs/check.png);
-}
-
-.switch input{
+/* 진짜 문제... checkbox */
+input[type= "checkbox"] {
   display: none;
 }
-
-.check_picture:before{
-  width: 30px;
-  height: 30px;
+input[type= "checkbox"]+label{
+  display: block;
+  background: url('imgs/check.png') no-repeat 0 0px / contain;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
-  content: "";
-}
-.switch input + label{
-  display: inline-block; 
-  cursor: pointer; 
-  line-height: 22px; 
-  padding-left: 22px; 
-  background: url('imgs/check.png') left/22px no-repeat; 
-
-
-
-}
-
-/* .check_picture{
-  position: absolute;
-  cursor:pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  
 }
 
 
-.switch input:checked + .check_picture{
-  background-image: url(imgs/check.png);
+input[type= "checkbox"]:checked + label {
+  background: url('imgs/checked.png')
+  no-repeat 0 1px / contain;
+  cursor: pointer;
 }
-.switch input:checked + .check_picture:before{
-  background-image: url(imgs/checked.png); */
 
-
-
+.input-agree{
+  display: flex;
+}
+.input-agree > h4{
+  margin-right: 20px;
+}
 
 
 

@@ -1,0 +1,14 @@
+input[type="checkbox"]+label {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(imgs/check.png) no-repeat 0 0px / contain;
+}
+
+input[type='checkbox']:checked+label {
+  background: url(imgs/checked.png) no-repeat 0 1px / contain;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
