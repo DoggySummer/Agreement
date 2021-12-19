@@ -168,7 +168,7 @@ input[type= "checkbox"]:checked + label {
   top: 62%;
   right: 40px;
 }
-.allow{
+.allow:hover{
   width: 100px;
   height: 100px;
   background-color: var(--color-blue);
@@ -178,6 +178,25 @@ input[type= "checkbox"]:checked + label {
   padding: 10px 20px;
   margin-left: 120px;
 }
+.allow{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  color: var(--color-blue);
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 120px;
+  transition: .2s;
+  border-width: 8px;
+  border: solid;
+  border-color: var(--color-blue);
+
+}
+
+
+
+
 .info-link{
   margin-left: 40px;
 }
